@@ -1,5 +1,4 @@
 import React from "react";
-
 import styled, { css } from "styled-components";
 import tw from "twin.macro";
 import { slide as Menu } from "react-burger-menu";
@@ -43,7 +42,8 @@ const NavItem = styled.li<{ menu?: any }>`
 
 export function NavItems() {
   const isMobile = useMediaQuery({ maxWidth: SCREENS.sm });
-  if (isMobile) {
+
+  if (isMobile)
     return (
       <Menu right styles={menuStyles}>
         <ListContainer>
@@ -54,18 +54,14 @@ export function NavItems() {
             <a href="#">Cars</a>
           </NavItem>
           <NavItem menu>
-            <a href="#">Service</a>
+            <a href="#">Services</a>
           </NavItem>
           <NavItem menu>
             <a href="#">Contact Us</a>
           </NavItem>
-          <NavItem menu>
-            <a href="#">Store</a>
-          </NavItem>
         </ListContainer>
       </Menu>
     );
-  }
 
   return (
     <ListContainer>
@@ -76,13 +72,10 @@ export function NavItems() {
         <a href="#">Cars</a>
       </NavItem>
       <NavItem>
-        <a href="#">Service</a>
+        <a href="#">Services</a>
       </NavItem>
       <NavItem>
         <a href="#">Contact Us</a>
-      </NavItem>
-      <NavItem>
-        <a href="#">Store</a>
       </NavItem>
     </ListContainer>
   );
