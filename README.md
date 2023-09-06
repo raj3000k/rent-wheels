@@ -1,3 +1,15 @@
+# Rent-WHEELS
+- Full Stack Car booking website.
+- A fully responsive car booking/renting website.
+- GraphQL API and Nest JS are used for Car models.
+- Add, remove, and update cars easily.
+- Admin and User Dashboard.
+- Technologies Used: Typescript, ReactJS, Tail-windCSS, Node/ExpressJS, GraphQL, NestJS.
+
+# Demo 
+[![Watch the video](https://img.youtube.com/vi/Pkss9RyiZHI/hqdefault.jpg)](https://youtu.be/Pkss9RyiZHI)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
